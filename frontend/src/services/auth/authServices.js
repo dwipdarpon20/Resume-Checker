@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = 'http://localhost:8080/api/auth';
+const baseUrl = 'https://resume-checker-axi7.onrender.com/api/auth';
 
 export const register =async ({email , password, username})=>{
     try {
