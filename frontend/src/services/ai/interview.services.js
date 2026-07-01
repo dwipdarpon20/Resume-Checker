@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create ({
-    baseURL : 'https://resume-checker-axi7.onrender.com/interview',
+    baseURL : 'https://resume-checker-axi7.onrender.com/api/interview',
     withCredentials : true
 });
 
